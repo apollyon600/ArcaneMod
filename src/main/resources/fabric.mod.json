@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "arcanemod",
+  "version": "${version}",
+  "name": "ArcaneMod",
+  "description": "Core plugin for Arcane Events!",
+  "authors": ["MC: Apollo30", "Discord: @johnaqu1no"],
+  "contact": {
+  },
+  "license": "Copyright Exclusivo LLC 2024",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "xyz.apollo30.arcane.client.ArcaneClient"
+    ],
+    "main": [
+      "xyz.apollo30.arcane.ArcaneMod"
+    ]
+  },
+  "mixins": [
+    "arcanemod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
