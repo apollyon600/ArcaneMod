@@ -10,9 +10,6 @@
   "license": "Copyright Exclusivo LLC 2024",
   "environment": "client",
   "entrypoints": {
-    "client": [
-      "xyz.apollo30.arcane.client.ArcaneClient"
-    ],
     "main": [
       "xyz.apollo30.arcane.ArcaneMod"
     ]
